@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Lato';
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: wheat;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+.menu label {
+   margin: 0 40px 0 0;
+   font-size: 26px;
+   line-height: 70px;
+   display: none;
+   width: 26px;
+   float: right;
+   
+}
+
+#toggle {
+   display: none;
+}
+
+
+.menu li {
+    padding:0 10px;
+}
+.menu li:hover{
+   color: white;
+   cursor: pointer;
+}
+.logo{
+    padding: 5px;
+}
+.logo img {
+    width: 100px;
+    height: 60px;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+.menu li{
+    padding: 20px 30px;
+    text-transform: capitalize;
+}
+
+span{
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.menu ul li button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    color:white;
+    background: rgb(216, 43, 101);
+    border:none;
+    margin-top: -5px;
+}
+.menu-drop{
+    position: relative;
+}
+.menu .drop {
+    display: none;
+}
+
+.menu-drop:hover .drop{
+    display: block;
+    color:white;
+    background: black;
+    position: absolute;
+    
+}
+
+.fas.fa-hamburger{
+    display: none;
+    font-size: 26px;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://www.noisiamofuturo.it/wp-content/uploads/2017/12/caffe-1-ok-696x466.jpg");
+    background-size: cover;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.top-content{
+    text-align: center;
+    color:white;
+    padding: 150px 50px;
+}
+.top-content h5,h1,h6 {
+    padding: 10px;
+    
+}
+.top-content h1{
+    font-size: 46px;
+}
+.top-content p{
+    font-size: 16px;
+}
+
+.top-content button{
+    padding: 10px;
+    border:none;
+    border-radius: 15px;
+    color:white;
+    background: rgb(216, 43, 101);
+    margin-top: 20px;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: center;
+    
+    
+  
+    
+}
+
+.box{
+    width: 30%;
+    background: rgb(255, 255, 255);
+    padding: 50px 5px;
+    text-align: center;
+    color:gray;
+    
+    
+
+}
+.gray{
+    background: rgb(218, 210, 210);
+}
+.fas {
+    color:rgb(216, 43, 101);
+    font-size: 46px;
+    padding: 10px;
+}
+
+.box h5{
+    font-size: 20px;
+    padding: 20px;
+    color:black;
+}
+
+.content1{
+    text-align: center;
+    margin-top: 30px;
+}
+.content1 h1{
+    padding: 70px;
+}
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.box1{
+    width: 45%;
+    height: 400px;
+    margin:20px;
+    text-align: left;
+    padding: 10px 0;
+}
+.box1 h1{
+    padding: 20px 0;
+    color:rgb(216, 43, 101);
+}
+.box1 p1{
+    color:gray;
+    line-height: 27px;
+}
+.box1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.box1 button {
+    padding: 10px;
+    border:none;
+    border-radius: 15px;
+    color:white;
+    background: rgb(216, 43, 101);
+    margin-top: 20px;
+    display: block;
+}
+
+.content3{
+    background-image: url("https://www.caffeconcerto.co.uk/images-branches/dsc_0127-jpg_1523268237.JPG");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color:wheat;
+    display: flex;
+    padding: 80px 10px 80px 80px;
+    font-weight: bold;
+
+}
+.left-content{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2{
+    width: 50%;
+    position: relative;
+    padding: 2px;
+    
+    
+}
+.box2 h1{
+    
+    font-size:26px;
+}
+
+.right-content{
+    width: 50%;
+    padding-left: 10px;
+
+}
+.box3 button{
+    padding: 10px;
+    border:none;
+    border-radius: 15px;
+    color:white;
+    background: rgb(216, 43, 101);
+    margin-top: 20px;
+    display: block;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left-footer{
+    padding: 5px;
+}
+
+.fab{
+    padding: 5px;
+}
+.right-footer{
+    padding: 5px;
+}
+.right-footer button{
+    padding: 5px 10px;
+    background-color:rgb(216, 43, 101);
+    color:white;
+    border:none;
+    margin:3px;
+    font-size: 16px;
+}
+
+.power{
+    text-align: center;
+    padding-bottom: 20px;
+}
+button{
+    cursor: pointer;
+}
+.box2 h1 {
+    background: rgba(107, 35, 35, 0.301);
+}
+.box2 p {
+    background: rgba(107, 35, 35, 0.562);
+}
+
+/* .box3 h4,h1,p{
+    background: rgba(107, 35, 35, 0.562);
+} */
+
+@media only screen and (max-width: 768px) {
+
+ 
+    .menu label{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right:0;
+        top:0;
+        z-index: 20;
+
+      
+        
+      }
+      .nav{
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: absolute;
+        padding: 15px;
+        top:70;
+        left:0;
+        margin: 0;
+
+
+        background:wheat;
+      }
+    .menu {
+        margin:0 auto;
+        padding: 0;
+    }
+
+    .menu li{
+        display: block;
+        padding: 5px;
+        
+    }
+
+    #toggle:checked + .nav {
+        display: block;
+    }
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .content1{
+        text-align: center;
+        margin-top: 700px;
+    }
+    .content1 h1{
+        padding: 70px;
+    }
+    .content2{
+        display: flex;
+        flex-wrap: wrap;        
+    }
+    .box1{
+        width: 100%;
+        margin:20px;
+        text-align: left;
+        padding: 0;
+        height: 200px;
+    }
+    .box1 h1 {
+        padding: 0;
+    }
+    .content3{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height:700px;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+  
+}

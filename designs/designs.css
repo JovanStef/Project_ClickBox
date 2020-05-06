@@ -1,0 +1,116 @@
+#master{
+    flex-flow: column;
+}
+.category-menu-container{
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 220px;
+    background-color: rgb(13, 0, 255);
+    color: white;
+}
+.category-menu-container ul{
+    border-top: 1px solid white;
+    width: 100%;
+    justify-content: center;
+}
+.category-menu-item{
+    padding: 10px;
+    font-size: 130%;
+}
+.designs-container{
+    padding: 20px;
+    width: 100%;
+}
+.thumbnail-wrapper{
+    margin-top: 10px;
+    width: 100%;
+    border-right: 1px solid rgb(13, 0, 255);
+    border-bottom: 1px solid rgb(13, 0, 255);
+    border-radius: 0% 0% 10% 0%;
+}
+.thumbnail-image-container{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.thumbnail-image-container img{
+    width: 100%;
+}
+.thumbnail-info{
+    width: 100%;
+    justify-content: space-between;
+align-content: center;
+}
+.thumbnail-info img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(13, 0, 255);
+    padding: 10px;
+}
+.thumbnail-info p{
+color: rgb(13, 0, 255);
+padding: 10px 25px 0px 0px;
+font-size: 150%;
+font-weight: 900;
+}
+.active-main-menu{
+    background-color: white;
+    color: rgb(13, 0, 255);
+}
+@media only screen and (min-width: 769px){
+    #master{
+        flex-flow: row;
+        justify-content: flex-end;
+    }
+    .category-menu-container{
+        position:fixed;
+        top:0px;
+        left:0px;
+        flex-flow: column ;
+        justify-content: center;
+        width: 10%;
+        height: 100vh;
+        padding-top: 30px;
+        background-color: rgb(13, 0, 255);
+        color: white;
+    }
+    .category-menu-container ul{
+        border-top: none;
+        width: 100%;
+        flex-flow: column;
+    }
+    .category-menu-item{
+        cursor: pointer;
+    }
+
+    .category-menu-item:hover{
+        background-color: white;
+        color: rgb(13, 0, 255);
+    }
+  
+    .designs-container{
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    .designs-container{
+        margin-top: 80px;
+    }
+    .thumbnail-image-container{
+        cursor: pointer;
+
+    }
+    .thumbnail-wrapper{
+        width: 30%;
+    }
+    .thumbnail-info img{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(13, 0, 255);
+        padding: 5px;
+    }
+    .thumbnail-info p{
+    color: rgb(13, 0, 255);
+    padding: 5px 25px 0px 0px;
+    font-size: 100%;
+    }
+}

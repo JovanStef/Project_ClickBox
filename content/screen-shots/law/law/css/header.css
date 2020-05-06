@@ -1,0 +1,173 @@
+.mini-header{
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #8c322a;
+}
+.mini-header p{
+    font-size: 100%;
+}
+.main-header{
+    background-image: url(../images/header-banner.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.inner-header{
+    flex-flow: wrap;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#advokat{
+    background-image: url(../images/advokat-img.jpg);
+    background-size: cover;
+}
+#notar{
+    background-image: url(../images/notar-img.jpg); 
+    background-size: cover;
+}
+#izvrsitel{
+    background-image: url(../images/izvrsitel-img.jpg);
+    background-size: cover;
+}
+#pravni{
+    background-image: url(../images/pravni-img.jpg);
+    background-size: cover;
+}
+.logo-law{
+    text-align: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:40%;
+    top:15px;
+}
+.logo-law img{
+    height: 100%;
+}
+.inner-header-item{
+    width: 100%;
+    height: 25%;
+    /* padding: 15px; */
+    justify-content: center;
+    align-items: flex-end;
+}
+.inner-header-item h1{
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+}
+.inner-header-item h1, .logo-law{
+    background-color: #8c322ac0;
+    padding: 5px;
+    /* border-radius: 10px; */
+}
+.footer {
+    min-height: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #8c322a; 
+    width:100%;
+}
+.footer ul{
+    justify-content: center;
+    align-items: center;
+}
+.footer li{
+    padding-right: 20px;
+}
+.footer i{
+    padding-right: 5px;
+}
+
+.footer img{
+    height: 15px;
+}
+
+@media only screen and (min-width: 769px){
+.inner-header {
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    border:10px solid #d9c29686;
+}
+
+#advokat{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#notar{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+#izvrsitel{
+    position: absolute;
+    top:0;
+    right:0;
+}
+#pravni{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.inner-header-item{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+}
+.inner-header-item h1{
+    width: auto;
+}
+.expand{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-law{
+    width: 60px;
+    height: 60px;
+    left:40%;
+    right: 40%;
+    top: 40%;
+    bottom: 40%;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.logo-law-pravni{
+    top:0%;
+    left:0%;
+    right: 100%;
+    background-color: #8c322a00;
+}
+.logo-law-izvrsitel{
+    top:85%;
+    bottom: 0%;
+    left:0%;
+    right: 100%;
+    background-color: #8c322a00;
+
+}
+.logo-law-notar{
+    top:0%;
+    left:93%;
+    right: 0%;
+    background-color: #8c322a00;
+
+}
+.logo-law-advokat{
+    top:85%;
+    left:93%;
+    right: 0%;
+    background-color: #8c322a00;
+}
+
+}

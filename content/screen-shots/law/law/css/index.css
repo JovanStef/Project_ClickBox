@@ -1,0 +1,32 @@
+    /* font-family: 'PT Mono', monospace;
+    font-family: 'Jura', sans-serif; */
+  html {
+    scroll-behavior: smooth;
+    
+  }
+body ,h1 ,p ,ul ,li,a{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Jura', sans-serif;
+    cursor: default;
+    color: #d9c196;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.flex{
+  display: flex;
+  flex-flow: wrap;
+}
+.master{
+  min-height: 100vh;
+}

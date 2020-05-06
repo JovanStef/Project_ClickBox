@@ -1,0 +1,150 @@
+.header-holder{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 90vh;
+    color: rgba(9, 33, 64)
+}
+.header-holder h1{
+    padding: 20px;
+    background-color: rgba(140, 108, 48, 0.8);
+    font-size: 400%;
+    text-align: right;
+    border-radius:10% 0 0 0;
+    border-left: 5px solid rgba(9, 33, 64, 0.9);
+    border-top: 5px solid rgba(9, 33, 64, 0.9);
+
+}
+.header-holder span{
+    font-family: gothic;
+}
+.menu-holder{
+width: 100%;
+height: 10vh;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    border-bottom: 5px solid rgba(9, 33, 64, 0.9);
+    background-color: rgba(140, 108, 48, 0.8);
+    color: rgba(9, 33, 64)
+}
+.menu-holder i{
+    color: rgba(9, 33, 64);
+    font-size: 250%;
+    padding-left: 60vw;
+}
+.menu-holder ul{
+    display: none;
+    position: absolute;
+    background-color: rgba(140, 108, 48, 0.8);
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 170%;
+}
+.menu-holder li{
+    padding-top: 10px;
+    cursor: default;
+}
+.logo{
+    background-size: cover;
+    background-image: url(../images/auto-logo.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .to-top{
+      justify-content: center;
+      align-items: flex-start;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    padding-bottom: 35px;
+    background-color: rgba(140, 108, 48, 0.8);
+    color: rgba(9, 33, 64, 0.9);
+    border-radius: 50% 0 0 50%;
+font-size: 250%;
+      position: fixed;
+      top: 100px;
+      right: -50px;
+  }
+  .to-top-apear{
+      right: 0px;
+  }
+
+  @media only screen and (min-width: 769px){
+      .to-top{
+          display: none;
+      }
+    .menu-holder{
+        width: auto;
+        height: 100vh;
+        flex-flow:column;
+        justify-content: flex-start;
+        align-items: flex;
+        position: absolute;
+        top: 0px;
+        left:80px;
+        padding-top: 20px;
+        border-right: 5px solid rgba(9, 33, 64, 0.9);
+        border-bottom: none;
+        background-color: rgba(140, 108, 48, 0.8);
+        color: rgba(9, 33, 64)
+    }
+    .ham-menu{
+        display: none;
+    }
+    .menu-holder ul{
+        display: block;
+        width: auto;
+        background: none;
+        position: static;
+        text-align: center;
+        padding: 5px;
+        font-size: 170%;
+    }
+    .menu-holder li{
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .menu-holder li:hover{
+        color:rgba(217, 174, 95, 0.9);
+    }
+    .header-holder{
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        height: 100vh;
+        color: rgba(9, 33, 64)
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+      }
+      .sticky-menu-holder{
+          position: fixed;
+
+          width: 35px;
+          left:0;
+      }
+      .sticky-menu-holder ul{
+          position: fixed;
+          top:50vh;
+          left: -168px;
+        transform: rotate(90deg);
+          display: flex;
+          flex-flow: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 150%;  
+      }
+      .sticky-menu-holder li{
+          margin-left: 20px;
+      }
+      .sticky-menu-holder .logo{
+          display: none;
+      }
+  }

@@ -1,0 +1,54 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Orbitron', sans-serif;;
+}
+#master{
+    position: relative;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    margin:0;
+    padding:0;
+
+}
+a{
+    text-decoration: none;
+}
+h1,p,h3{
+    margin:0;
+    cursor: default;
+}
+*{
+    box-sizing: border-box;
+
+}
+.flex{
+    display:flex;
+    flex-flow: row wrap;
+}
+.b25{
+    width: 25%;
+}
+.b33{
+    width: 33%;
+ 
+}
+.b50{
+width: 50%;
+}
+.b70{
+    width: 70%;
+
+}
+.logo{
+    width: 120px;
+}

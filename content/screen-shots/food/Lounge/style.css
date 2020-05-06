@@ -1,0 +1,357 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+ header{
+     display: flex;
+     justify-content: space-between;
+     padding:30px 10px;
+     font-weight: bold;
+     color:wheat;
+ }
+ .menu {
+     display: flex;
+     list-style-type: none;
+     
+ }
+
+ .middle-menu label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    
+}
+
+#toggle {
+    display: none;
+}
+
+
+ .middle-menu li {
+     padding:0 10px;
+ }
+ .middle-menu li:hover{
+    color: white;
+    cursor: pointer;
+ }
+ .right-menu button{
+     padding: 10px;
+     margin-left: 5px;
+     background: rgb(190, 152, 152);
+     border: none;
+     cursor: pointer;
+ }
+
+ .backgr{
+    background-image: url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    height: 100vh;
+    background-size: cover;
+
+    
+ }
+
+ .main-box {
+     text-align: left;
+     color:white;
+     padding: 20% 0;
+     
+ }
+
+ .main-box h1{
+     padding: 30px 0;
+     font-size: 50;
+ }
+
+ .main-box button{
+     padding: 5px;
+     background: transparent;
+     color: white;
+     cursor: pointer;
+ }
+
+ .content{
+     display: flex;
+
+ }
+ .left-content{
+     width: 50%;
+     padding: 50px 10px;
+ }
+ .left-content h2{
+  
+    padding: 50px 0;
+}
+
+.right-content{
+    width: 50%;
+    background-image: url("https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 400px;
+    background-size: cover;
+    margin: 15px 10px;
+}
+
+.color-main{
+    background: rgb(230, 226, 222);
+}
+
+.headline{
+    text-align: center;
+    padding: 40px;
+}
+
+.chefs{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.chief{
+    width: 30%;
+    height: 400px;
+}
+
+.hov{
+    color: antiquewhite;
+    display: none;
+}
+.hov1{
+    color: antiquewhite;
+    display: none;
+}
+.hov2{
+    color: antiquewhite;
+    display: none;
+}
+.left{
+    background-image: url("https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+}
+.left:hover .hov{
+    display: block;
+}
+.center:hover .hov1{
+    display: block;
+}
+.right:hover .hov2{
+    display: block;
+}
+.center{
+    background-image: url("https://images.pexels.com/photos/1587830/pexels-photo-1587830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+}
+.right{
+    background-image: url("https://images.pexels.com/photos/2494659/pexels-photo-2494659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+}
+
+.color-side h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.menu-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 33.3%;
+    height: 350px;
+}
+
+.first{
+    background-image: url("https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+}
+.second{
+    background-image: url("https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+}
+.third{
+    background-image: url("https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+}
+.fourth{
+    background-image: url("https://images.pexels.com/photos/1437590/pexels-photo-1437590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+    background-position: center top;
+    cursor: pointer;
+
+}
+.fifth{
+    background-image: url("https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:   cover;
+    background-position: center;
+    text-align: center;
+    cursor: pointer;
+}
+.sixt{
+    background-image: url("https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.banner{
+   display: none;
+}
+
+.first:hover .banner,.second:hover .banner,.third:hover .banner,.fourth:hover .banner,.fifth:hover .banner,.sixt:hover .banner{
+    display: block;
+    background: grey;
+    transition: ease-in ;
+    transition-delay: 3s;
+    
+}
+
+.testimonials{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/3510155/pexels-photo-3510155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center top;
+    opacity: 1;
+    padding: 150px 50px;
+    color: white;
+}
+
+.testimonials h1{
+    padding: 30px;
+}
+
+.testimonials h2 {
+    padding: 15px;
+}
+.map{
+    display: flex;
+    padding: 30px;
+}
+.google{
+    width: 50%;
+}
+.form{
+    width: 50%;
+    text-align: center;
+    border: none;
+}
+.form-input{
+    width:80%;
+    text-align: center;
+    padding: 5px;
+    opacity: 0.8;
+    border: none;
+    border-bottom: 1px solid tomato;
+
+}
+
+.form-input-1{
+    width:80%;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid tomato;
+}
+
+.btn{
+    width: 80%;
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        
+        margin:0;
+    }
+
+
+    .middle-menu label{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left:120;
+        top:10;
+        z-index: 20;
+
+      
+        
+      }
+      .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: absolute;
+        padding: 15px;
+        top:57;
+        left:0;
+        margin: 0;
+
+
+        background: black;
+      }
+    .middle-menu {
+        margin:0 auto;
+        padding: 0;
+    }
+
+    .menu li{
+        display: block;
+        padding: 5px;
+        
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .chefs{
+        flex-direction: column;
+    }
+    .left,.right{
+        width: 100%;
+        background-position: center top;
+    }
+    .center{
+        width: 100%;
+        background-position: center;
+    }
+    .menu-bottom{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Lora', serif;
+
+
+}
+
+.brown {
+    background-image: url("https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+   
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.left-hed h4 {
+    padding: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.left-hed h1 {
+    padding: 10px 0;
+
+    
+}
+
+.middle-hed {
+    background:rgba(131, 21, 21, 0.918);
+    margin: auto;
+    padding: 50px;
+    color: rgb(245, 239, 239);
+    border-radius: 20px;
+}
+
+.right-hed {
+    margin: auto 0;
+}
+
+.right-hed h2 {
+    cursor: pointer;
+    padding-top: 15px;
+}
+nav label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    
+}
+
+#toggle {
+    display: none;
+}
+.menu {
+    display: flex;
+    text-align: center;
+}
+
+.menu li {
+    padding: 10px 33px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: greenyellow;
+}
+.menu :first-child{
+    background-color: rgb(114, 28, 13);
+    color:white;
+    -webkit-box-shadow: 7px -8px 5px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 7px -8px 5px 0px rgba(0,0,0,0.49);
+    box-shadow: 7px -8px 5px 0px rgba(0,0,0,0.49);
+}
+
+.menu span {
+    font-size: 10px;
+    background-color: white;
+    color: white;
+}
+
+.red{
+    background-color: rgb(114, 28, 13);
+    padding: 30px 0;
+   
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 32%;
+    padding: 15px;
+    border: 1px solid white;
+    margin:30px 5px;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    
+}
+
+.content{
+    background-color: whitesmoke;
+    
+}
+
+.fullmenu{
+    text-align: right;
+    color:white;
+}
+
+.effects{
+    background-color: rgb(114, 28, 13);
+   padding: 20px 0;
+}
+
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    width: 24%;
+    padding: 15px;
+    border: 1px solid white;
+    margin:30px 5px;
+    cursor: pointer;
+}
+
+.box-1 img {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    object-fit: contain;
+}
+
+.content-1{
+    font-size: 6px;
+    
+}
+.pic{
+    background-image: url("https://images.pexels.com/photos/1878346/pexels-photo-1878346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.boxes{
+    display: flex;
+    text-align: center;
+}
+
+.left-box{
+    width: 50%;
+    color:whitesmoke;
+    padding: 50px;
+}
+
+.right-box{
+    width: 50%;
+}
+
+.left-box h1,h2,h5 {
+    padding: 30px 0;
+}
+
+.left-box button{
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    header{
+        margin:0;
+        padding: 20px 10px;
+        flex-direction: column;
+        color: white;
+        
+    }
+    .left-hed{
+        display: none;
+    }
+    .right-hed{
+        display: none;
+    }
+    .box{
+        width: 100%;
+    }
+    .fullmenu{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    nav label{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right:-15;
+        top:0;
+        z-index: 20;
+
+      
+        
+      }
+      .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: absolute;
+        padding: 15px;
+        top:57;
+        left:0;
+        margin: 0;
+
+
+        background: black;
+      }
+    nav {
+        margin:0 auto;
+        padding: 0;
+    }
+
+    .menu li{
+        display: block;
+        padding: 5px;
+        color: white;
+        
+    }
+    .menu span {
+        display: none;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .box-1{
+        width: 100%;
+        
+    }
+    .section-1{
+        flex-direction: column;
+    }
+    .box-1 img {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        object-fit: cover;
+    }
+
+}

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: rod;
+    src: url(../fonts/rodchenkoctt.ttf);
+  }
+  @font-face {
+    font-family: gothic;
+    src: url(../fonts/deutsch-gothic.ttf);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  *{
+    transition: all 0.2s ease-in;
+    box-sizing: border-box;
+    font-family: rod;
+    cursor: default;
+  }
+body,h1,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color:inherit
+}
+ul{
+  list-style-type: none;
+}
+.flex{
+  display: flex;
+}
+.master{
+  width: 100%;
+  position: relative;
+  background-image: url(../images/header-bckg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex-flow: column;
+}
+
+@media only screen and (min-width: 769px){
+
+}
